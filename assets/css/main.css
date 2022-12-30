@@ -1,0 +1,38 @@
+:root {
+  --primary: #ddd;
+  --dark: #333;
+  --light: #fff;
+  --shadow: 0 1px rgba(104, 104, 104, 0.8);
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--dark);
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.color-right {
+  background: #dad299;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #b0dab9, #dad299);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #b0dab9, #dad299);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.color-left {
+  background: #dad299;
+  background: -webkit-linear-gradient(to left, #b0dab9, #dad299);
+  background: linear-gradient(to left, #b0dab9, #dad299);
+}
+body {
+  padding: 20px;
+  margin: 20px;
+}
