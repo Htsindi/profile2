@@ -201,7 +201,6 @@ footer {
 .sect-head {
   font-family: "Pacifico", Monospace;
   font-weight: bold;
-  font-size: 3rem;
   padding: 0;
   margin: 0;
 }
@@ -291,7 +290,7 @@ footer {
 /* Slide Show */
 .slideshow-container {
   max-width: 2000px;
-  min-width: 200px;
+  min-width: 4git00px;
   min-height: 400px;
   position: relative;
   margin: auto;
@@ -464,14 +463,11 @@ footer {
   box-shadow: var(--shadow);
 }
 
-/* Media Queries */
+/* Media Queries*/
 
 @media (max-width: 700px) {
   .top-container {
     grid-template-areas: "showcase showcase" "top-box-a top-box-b" "top-box-c top-box-d" "top-box-e";
-  }
-  .showcase h1 {
-    font-size: 2rem;
   }
 }
 
@@ -483,18 +479,13 @@ footer {
     float: none;
     width: 100%;
   }
-  body {
-    font-size: x-small;
-  }
 }
-/*   only screen and */
+/*   only screen
 @media (max-width: 300px) {
   .prev,
   .next,
   .text {
     font-size: 11px;
   }
-  body {
-    font-size: xx-small;
-  }
 }
+*/
