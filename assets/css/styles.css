@@ -163,7 +163,7 @@ footer {
 .diploma-box,
 .cert-box,
 .other-box {
-  padding: 0.9rem 0.9rem;
+  padding: 0.9rem;
   box-shadow: var(--shadow);
 }
 
@@ -177,7 +177,7 @@ footer {
   color: var(--light);
 }
 
-.btn-skill:hover {
+.WebDesign:hover {
   background-color: var(--light);
   color: var(--dark);
   text-align: center;

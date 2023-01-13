@@ -1,4 +1,4 @@
-const ctx = document.getElementById("sacredChart").getContext("2d");
+const ctx = document.getElementById("graph-1").getContext("2d");
 
 const sacredChart = new Chart(ctx, {
   type: "doughnut",
@@ -50,7 +50,7 @@ const frst = document.getElementById("forkifyChart");
 const forkifyChart = new forkifyChart(frst, config);
 */
 
-const mtx = document.getElementById("forkifyChart").getContext("2d");
+const mtx = document.getElementById("graph-2").getContext("2d");
 
 const forkifyChart = new Chart(mtx, {
   type: "doughnut",
@@ -84,7 +84,7 @@ const forkifyChart = new Chart(mtx, {
   },
 });
 
-const myctx = document.getElementById("myChart").getContext("2d");
+const myctx = document.getElementById("graph-3").getContext("2d");
 
 const yelpcamp = new Chart(myctx, {
   type: "bar",
@@ -118,7 +118,7 @@ const yelpcamp = new Chart(myctx, {
   },
 });
 
-const nyctx = document.getElementById("idChart").getContext("2d");
+const nyctx = document.getElementById("graph-4").getContext("2d");
 
 const dice = new Chart(nyctx, {
   type: "bar",
