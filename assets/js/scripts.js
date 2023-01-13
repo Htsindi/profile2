@@ -3,16 +3,6 @@
 // Back to Top Button
 const topBtn = document.getElementById("topBtn");
 
-//bubbling phase
-document.querySelector(".btn-skill").addEventListener("click", function (e) {
-  e.preventDefault();
-  if (e.target.classList.contains("WebDesign")) {
-    const id = e.target.getAttribute("href");
-    document.querySelector(id);
-    console.log(id);
-  }
-});
-
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () {
   scrollFunction();

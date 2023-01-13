@@ -9,16 +9,24 @@
   border: 0;
 }
 
-.det,
-.btn-skill {
+.det {
   background: var(--dark);
   color: var(--light);
   padding: 0.6rem 1.3rem;
   border: 0;
 }
+.btn-skill {
+  color: var(--light);
+  padding: 0.6rem 1.3rem;
+  border: 0;
+  background: #dad299;
+  background: -webkit-linear-gradient(to left, #b0dab9, #dad299);
+  background: linear-gradient(to left, #b0dab9, #dad299);
+  display: block;
+  width: 100%;
+}
 
 .btn-skill a {
-  background: var(--dark);
   color: var(--light);
   padding: 0.6rem 1.3rem;
   border: 0;

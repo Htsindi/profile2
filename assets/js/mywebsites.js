@@ -151,3 +151,13 @@ const dice = new Chart(nyctx, {
     },
   },
 });
+
+// Back to Top Button
+const homeBtn = document.getElementById("homeBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+
+//homeBtn.addEventListener("click", function (e) {
+//  e.preventDefault();
+//console.log("Home");
+//});
