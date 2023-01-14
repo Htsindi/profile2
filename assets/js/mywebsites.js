@@ -23,6 +23,7 @@ const sacredChart = new Chart(ctx, {
     ],
   },
   options: {
+    maintainAspectRatio: false,
     plugins: {
       legend: {
         display: true,

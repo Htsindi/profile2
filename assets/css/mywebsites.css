@@ -65,3 +65,49 @@
     width: 90%;
   }
 }
+
+@media only screen and (max-width: 400px) {
+  body {
+    overflow-wrap: break-word;
+  }
+  .title,
+  .status,
+  .objective,
+  .desc,
+  .link {
+    font-size: 0.8em;
+  }
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+  .project {
+    display: grid;
+    grid-template-areas:
+      "graph"
+      "descript"
+      "link";
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+  .graph {
+    grid-area: graph;
+    width: 250px;
+    height: 250px;
+  }
+  .descript {
+    grid-area: descript;
+  }
+  .link {
+    grid-area: link;
+  }
+  .graph-area {
+    width: 200px;
+    height: 200px;
+  }
+  #homeBtn {
+    font-size: small;
+    width: 100px;
+  }
+}
