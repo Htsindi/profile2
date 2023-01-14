@@ -70,6 +70,13 @@
   body {
     overflow-wrap: break-word;
   }
+  .projects {
+    display: block;
+    padding: 0px;
+    margin: 2px;
+    text-align: center;
+  }
+
   .title,
   .status,
   .objective,
@@ -93,7 +100,9 @@
   }
   .graph {
     grid-area: graph;
-    width: 250px;
+    align-items: start;
+    justify-self: center;
+    width: 90%;
     height: 250px;
   }
   .descript {
