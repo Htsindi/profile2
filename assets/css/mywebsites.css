@@ -44,6 +44,7 @@
   border: none;
   outline: none;
   background-color: var(--light);
+  color: var(--dark);
   opacity: 0.55;
   cursor: pointer;
   padding: 15px;
@@ -56,6 +57,7 @@
 }
 #homeBtn a {
   text-decoration: solid;
+  color: var(--dark);
 }
 
 /*Mwdia Queries*/

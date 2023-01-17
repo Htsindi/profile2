@@ -16,7 +16,7 @@
   border: 0;
 }
 .btn-skill {
-  color: var(--light);
+  color: var(--dark);
   padding: 0.6rem 1.3rem;
   border: 0;
   background: #dad299;
@@ -27,7 +27,7 @@
 }
 
 .btn-skill a {
-  color: var(--light);
+  color: var(--dark);
   padding: 0.6rem 1.3rem;
   border: 0;
 }
@@ -282,7 +282,7 @@ footer {
   padding-bottom: 12px;
   text-align: left;
   background-color: #b0dab9;
-  color: white;
+  color: var(--dark);
 }
 
 /* Contract Styling of Slide Show */
@@ -367,8 +367,9 @@ footer {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: var(--dark);
-  color: white;
+  background-color: var(--light);
+  color: var(--dark);
+  opacity: 0.55;
   cursor: pointer;
   padding: 15px;
   border-radius: 4px;
@@ -376,6 +377,7 @@ footer {
 
 #topBtn:hover {
   background-color: #b0dab9;
+  opacity: 1;
 }
 
 /*Slide Show Contract cards*/
